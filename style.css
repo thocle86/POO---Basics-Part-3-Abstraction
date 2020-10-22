@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container div {
+    margin: 20px;
+    padding: 20px;
+}
+
+.container div:nth-child(1) {
+    background-color: #E6B0AA;
+}
+
+.container div:nth-child(2) {
+    background-color: #F9E79F;
+}
+
+.container div:nth-child(3) {
+    background-color: #AED6F1;
+}
